@@ -213,7 +213,7 @@ main .slider h4{
 main #slider {
   /* z-index: -9999999999; */
   width: 50%;
-  min-height: 400px;
+  height: 400px;
   margin:auto;
   margin-top: 100px;
   font-family: 'Roboto', sans-serif;
@@ -247,7 +247,7 @@ input[type=radio]:checked {
 #slider label img {
   position: absolute;
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   left: 0;
   top: 0;
   color: white;
@@ -264,7 +264,7 @@ input[type=radio]:checked {
 /* For center image: */
 #s1:checked~#slide1,#s2:checked~#slide2,#s3:checked~#slide3,#s4:checked~#slide4,#s5:checked~#slide5 {
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
-  transform: translate3d(0%, 0, 100px);
+  transform: translate3d(0%, 0, 100px) ;
 }
 
 /* For next image 1: */
