@@ -1,0 +1,48 @@
+.strip{
+   margin-top: 80px !important;
+}
+ main .start{
+    font-family: sans-serif;
+}
+ main .last {
+    font-family: Lobster;
+    letter-spacing: 4px;
+    color: blue;
+ }
+
+ main .row {
+    width: 100%;
+ }
+ main p{
+    columns: 3;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    border-radius: 20px;
+    margin-top: 24px;
+    overflow: hidden;
+    text-align: left; 
+ }
+ #id_p_ils{
+   width: inherit;
+   height: 300px;
+ }
+ #id_p_bg{
+   width: inherit;
+   height: 300px;
+ }
+ #id_p_hv{
+   width: inherit;
+   height: 300px;
+ }
+ main .row p .picture{
+    width: 150px;
+    float: left;
+    padding: 12px;
+ }
+
+
+@media (max-width :768px){
+    main p{
+        columns: 1;
+    }
+}

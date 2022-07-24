@@ -1,0 +1,38 @@
+
+.bannerRight, .bannerLeft{
+    color: black;
+    z-index: 99999;
+    
+}
+main .bannerLeft{
+    position: absolute;
+    top: 20px;
+    left:2px;
+    background: white;
+  }
+  main .bannerRight{
+    position: absolute;
+    top: 20px;
+    right:2px;
+    background: white;
+  }
+
+@media (max-width: 768px) {
+    main .banner{
+        width: 100%;
+    }
+    .bannerLeft {
+        display: block;
+        top: 0;
+        min-width: 100%;
+        min-height: 100vh;
+        left: 6px;
+    }
+    .bannerLeft iframe{
+        min-height: 400px;
+    }
+
+    .bannerRight {
+        display: none;
+    }
+}

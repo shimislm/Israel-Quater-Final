@@ -1,0 +1,89 @@
+.strip{
+  margin-top: 80px !important;
+}
+.strip .ul .li{
+  list-style: none;
+}
+.strip ul li button{
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 12px;
+  margin: 6px;
+  font-family: Lobster;
+  letter-spacing: 2px;
+  background: linear-gradient(155deg, rgba(2, 0, 36, 1) 0%, rgba(95, 95, 179, 1) 16%, rgba(0, 212, 255, 1) 96%);
+  border: none;
+  border-end-end-radius: 12px ;
+  border-start-start-radius: 12px ;
+}
+.strip ul li button:hover{
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+main{
+ 
+  margin: 60px 0 60px 0;
+}
+main .container .row{
+  padding-right: 6px;
+}
+
+main .row{
+  border-bottom: black 8px solid;
+  border-top: black 8px solid;
+  border-radius: 60px;
+  padding: 24px 0 24px 0;
+  justify-content: space-around;
+  transition: 3000ms;
+}
+
+main .ul .li{
+  list-style: none;
+}
+
+main h4{
+  color: rgb(0, 34, 255);
+  font-family: Lobster;
+  letter-spacing: 8px;
+  font-size: 1.8em;
+  margin: 0 0 12px 0;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+  main .row img , iframe{
+    width: 100%;
+    /* overflow: hidden; */
+    height: 400px;
+    border: 6px white solid;
+    margin: 6px;
+    border-radius: 24px;
+    transition: 1000ms;
+    
+  }
+  main .row img{
+    filter: saturate(0.25);
+  }
+  main .row img:hover{
+    transform: scale(1.05);
+    filter: saturate(1);
+  }
+  #jerusalem{
+    display: none;
+  }
+  #telaviv{
+    display: none;
+  }
+  #eilat{
+    display: none;
+  }
+  #deadsea{
+    display: none;
+  }
+  #haifa{
+    display: none;
+  }
+  @media (max-width: 768px) {
+    main .row img{
+      height: 350px;
+    }
+  }
