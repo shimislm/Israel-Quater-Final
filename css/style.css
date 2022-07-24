@@ -264,7 +264,7 @@ input[type=radio]:checked {
 /* For center image: */
 #s1:checked~#slide1,#s2:checked~#slide2,#s3:checked~#slide3,#s4:checked~#slide4,#s5:checked~#slide5 {
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
-  transform: translate3d(0%, 0, 100px) scale(1.1);
+  transform: translate3d(0%, 0, 100px);
 }
 
 /* For next image 1: */
