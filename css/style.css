@@ -183,7 +183,7 @@ header .fa-times {
   min-width: 100%;
   background-size: cover;
   background-position: center;
-  border-radius: 24px 0 24px 0;
+  border-radius: 24px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 1.2);
 }
 
@@ -205,14 +205,14 @@ main .slider a:hover{
 }
 main .slider h4{
   padding: 16px 8px;
-  background: linear-gradient(155deg, rgba(2, 0, 36, 0.5) 0%, rgba(95, 95, 179, 0.5) 16%, rgba(0, 213, 255, 0.5) 96%);
+  background: linear-gradient(155deg, rgba(2, 0, 36, 0.5) 0%, rgba(95, 95, 179, 0.5) 16%, rgba(0, 213, 255, 00) 96%);
   border-radius: 24px 0;
   font-family: Lobster; 
   font-size: 0.7em;
 }
 main #slider {
-  width: 50%;
-  height: 400px;
+  width: 60%;
+  height: 350px;
   margin: 10% auto;
   font-family: 'Roboto', sans-serif;
   perspective: 1300px;
@@ -239,7 +239,7 @@ input[type=radio]:nth-child(5) {
 
 }
 input[type=radio]:checked {
-  opacity: 1;
+  opacity: 0;
 }
 #slider label,
 #slider label img {
@@ -261,7 +261,7 @@ input[type=radio]:checked {
 
 /* For center image: */
 #s1:checked~#slide1,#s2:checked~#slide2,#s3:checked~#slide3,#s4:checked~#slide4,#s5:checked~#slide5 {
-  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0), 0 12px 6px rgba(0, 0, 0, 0.3);
   transform: translate3d(0%, 0, 100px) ;
 }
 
@@ -315,7 +315,6 @@ footer {
 footer img{
   width: 50px;
   border-right: rgba(163, 163, 163, 0.196) 0.5px solid;
-  /* border-bottom: rgb(0, 0, 0) 2px solid; */
   border-bottom-right-radius:80px ;
   transition: 2000ms;
 }
@@ -334,7 +333,9 @@ footer .profile img{
   border-radius: 50%;
   border-right: rgb(0, 0, 0) 5px solid;
 }
+@media (max-height: 560px){
 
+}
 @media (max-width: 768px) {
   header {
     position: static;
