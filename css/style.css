@@ -211,7 +211,6 @@ main .slider h4{
   font-size: 0.7em;
 }
 main #slider {
-  /* z-index: -9999999999; */
   width: 50%;
   height: 400px;
   margin: 10% auto;
@@ -221,7 +220,7 @@ main #slider {
 }
 main .pic{
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 1.2);
-  /* margin-bottom: 12px; */
+  margin-bottom: 12px;
 }
 input[type=radio] {
   position: none;
@@ -246,7 +245,7 @@ input[type=radio]:checked {
 #slider label img {
   position: absolute;
   width: 100%;
-  height: 50vh;
+  height: 100%;
   left: 0;
   top: 0;
   color: white;
@@ -291,7 +290,7 @@ input[type=radio]:checked {
   transform: translate3d(-80%, 0, -350px) scale(0.7);
 }
 .video{
-  margin-top: 10%;
+  margin-top: 5%;
   max-height: 400px;
   background-image: url(https://i.ibb.co/Y30fw4M/Strip-Image.jpg);
   background-position: center;
