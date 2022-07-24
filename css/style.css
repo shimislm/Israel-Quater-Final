@@ -212,7 +212,7 @@ main .slider h4{
 }
 main #slider {
   width: 60%;
-  height: 350px;
+  height: 400px;
   margin: 10% auto;
   font-family: 'Roboto', sans-serif;
   perspective: 1300px;
@@ -334,7 +334,9 @@ footer .profile img{
   border-right: rgb(0, 0, 0) 5px solid;
 }
 @media (max-height: 560px){
-
+  main #slider {
+    height: 300px;
+  }
 }
 @media (max-width: 768px) {
   header {
