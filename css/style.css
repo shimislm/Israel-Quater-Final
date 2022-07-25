@@ -215,8 +215,8 @@ main .slider h4{
   font-size: 0.7em;
 }
 main #slider {
-  width: 60%;
-  height: 500px;
+  width: 70%;
+  height: 450px;
   margin: 10% auto;
   font-family: 'Roboto', sans-serif;
   perspective: 1300px;
