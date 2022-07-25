@@ -173,6 +173,7 @@ header .fa-times {
 }
 .typing{
   width: 100%;
+  height: inherit;
   border-radius: 40%;
   background: rgba(255, 255, 255, 0.434);
   min-height: 200px;
