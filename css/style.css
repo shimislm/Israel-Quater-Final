@@ -173,14 +173,12 @@ header .fa-times {
 }
 .typing{
   width: 100%;
-  height: inherit;
+  height: 100%;
   border-radius: 40%;
   background: rgba(255, 255, 255, 0.434);
   min-height: 200px;
   font-family: Lobster;
   letter-spacing: 3px;
-}
-.text{
   font-size: 2em;
 }
 /*carusel slider start */
@@ -397,7 +395,7 @@ footer .profile img{
   }
   .typing{
     padding: 12px;
-    min-height: 280px;
+    /* min-height: 280px; */
   }
   main{
     padding-bottom: 40px;
