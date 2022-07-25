@@ -62,16 +62,10 @@ h1 .last {
   font-family: Lobster;
   letter-spacing: 4px;
   font-weight: 300;
-  text-shadow: 2px 2px 0 #000000, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 2px 2px 2px rgba(0,0,0,0);
-  
+  text-shadow: 2px 2px 0 #000000, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 2px 2px 2px rgba(0,0,0,0); 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   margin: 0%;
   text-transform: capitalize;
 }
@@ -176,6 +170,17 @@ header .fa-flag {
 header .fa-times {
   font-size: 1.5em;
   cursor: pointer;
+}
+.typing{
+  width: 100%;
+  border-radius: 40%;
+  background: rgba(255, 255, 255, 0.434);
+  min-height: 200px;
+  font-family: Lobster;
+  letter-spacing: 3px;
+}
+.text, .welcome{
+  font-size: 2em;
 }
 /*carusel slider start */
 .bg_pic {
@@ -388,6 +393,10 @@ footer .profile img{
 
   header nav.active {
     right: 0;
+  }
+  .typing{
+    padding: 12px;
+    min-height: 280px;
   }
   main{
     padding-bottom: 40px;
