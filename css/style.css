@@ -395,7 +395,7 @@ footer .profile img{
   }
   .typing{
     padding: 12px;
-    /* min-height: 280px; */
+    min-height: 300px;
   }
   main{
     padding-bottom: 40px;
