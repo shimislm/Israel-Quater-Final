@@ -360,6 +360,7 @@ footer .profile img{
     position: static;
     max-height: 74px;
     top: 0;
+    z-index: 999999 !important;
     /* margin: 0; */
   }
 
