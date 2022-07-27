@@ -369,7 +369,7 @@ footer .profile img{
     position: absolute;
     top: 20px;
     right: -100%;
-    z-index: 999999 !important;
+    z-index: 9999999 !important;
     background-image: url(https://i.ibb.co/Y30fw4M/Strip-Image.jpg);
     background-position: center;
     background-size: cover;
