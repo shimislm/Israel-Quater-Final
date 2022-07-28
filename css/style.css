@@ -200,6 +200,7 @@ header .fa-times {
 }
 
 main {
+  overflow: hidden;
   z-index: 1;
   position: relative;
   border-radius: 60px;
@@ -353,6 +354,7 @@ footer .profile img{
 }
 @media (max-height: 560px){
   main #slider {
+    z-index: 0;
     height: 270px;
   }
 }
