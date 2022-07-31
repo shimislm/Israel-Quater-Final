@@ -4,11 +4,13 @@ class TriviaClass{
         this.parent = _parent;
         this.question = _item[this.index].question;
         this.answers = _item[this.index].answers 
+        // console.log(this.item)
     }
     render(){
         let answersArr = shuffle(this.answers)
         let h2 = document.createElement("h2")
-        h2.className = "display-4"
+        h2.className = "display-5"
+        h2.style.color="rgb(20, 101, 252)"
         document.querySelector(this.parent).append(h2)
         h2.innerHTML = `${this.question}`
         let div = document.createElement("div")

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://i.ibb.co/2PCX2Kx/star-Of-David.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/trivia.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/endGame.js"></script>
+    <script src="js/scoreClass.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main id="id_main">
+        <div class="trivia p-5 shadow rounded w-75">
+            <h1 class="display-5 mb-4">Your Score: <span id="id_score" class="text-primary border-primary p-1"></span></h1>
+            <form id="id_form" class="col-md-6 col-12 m-auto p-0">
+                <label class="label-control d-flex">Enter full name</label>
+                <input id="id_input" type="text" class="form-control" placeholder="Your name">
+                <button class="btn btn-primary mt-2 p-2 col-12">Save</button>
+            </form>
+            <div class="btn_box">
+                <a class="btn btn-primary btn-lg mt-2 p-2 col-md-6 col-12" type="button" href="game.html">New Game</a>
+            </div>
+            <div class="btn_box">
+                <a class="btn btn-warning btn-lg mt-2 p-2 col-md-6 col-12" type="button" href="high_scores.html">High Scores</a>
+            </div>
+            <div class="btn_box">
+                <a class="btn btn-dark btn-lg mt-2 p-2 col-md-6 col-12" type="button" href="index.html">Home</a>
+            </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

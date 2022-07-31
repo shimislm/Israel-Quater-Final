@@ -1,5 +1,7 @@
+let highScores = []
 let trivia_data = [];
 let countQuestions = 0
+let avilablequestions = 10;
 let score = 0
 function init(){
     getApi();
@@ -14,7 +16,7 @@ async function getApi() {
     })
     .then(function (resp) {
         trivia_data = resp.data.record
-        countQuestions = trivia_data.length
+        countQuestions = -1
         // console.log(trivia_data)
         score = 0;
         localStorage.setItem("correntScore", score)
@@ -26,19 +28,21 @@ async function getApi() {
 }
     /** make the api request to get our data */
 const createTrivia = ()=>{
-    console.log(trivia_data)
-    countQuestions--;
+    countQuestions++;
+    document.querySelector("#id_score").innerHTML= `${countQuestions +1} of ${avilablequestions}`;
+    document.querySelector("#progressBarFull").style.width = `${(countQuestions/10)*100}%`;
     document.querySelector("#id_main").innerHTML="";
     let rnd = Math.floor(Math.random()*trivia_data.length)
-    if(countQuestions>=0){
+    
+    if(countQuestions < avilablequestions ){
        let el = new TriviaClass("#id_main", trivia_data, rnd);
         el.render()
         trivia_data.splice(rnd,1)
     }
     else{
-        window.open( "Trivia.html" , "_self")
-        let ownScore = (localStorage.getItem("correntScore")/10)*100
-        alert(`Your score is ${ownScore}%`)
+        setTimeout(function () {
+            window.open( "endGame.html" , "_self")
+        }, 2000);
     }
 }
 init()
