@@ -10,6 +10,9 @@ main{
     overflow: hidden;
     background: rgba(57, 65, 131, 0.509);
 }
+#id_question{
+    max-width: 75%;
+}
 
 #progressBar{
     padding: 0;
