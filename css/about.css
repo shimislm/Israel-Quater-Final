@@ -13,6 +13,28 @@
  main .row {
     width: 100%;
  }
+ main .me{
+   border-radius: 20px;
+   background: rgba(0, 0, 0, 0.5);
+   min-height: 200px;
+ }
+ main .me .image{
+   height: 200px;
+ }
+ main .me .image img{
+   height: 100%;
+ }
+ main .me .para  p{
+   column-gap: 24px;
+   column-count: 2;
+   background: transparent;
+   height: 100%;
+   border-radius: 0;
+ }
+ main .me .skils{
+   align-self: flex-start;
+   column-count: 0;
+ }
  main p{
     columns: 3;
     background: rgba(0, 0, 0, 0.5);
