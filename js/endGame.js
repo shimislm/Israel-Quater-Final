@@ -9,21 +9,22 @@ const checkLocal = () =>{
     }
 }
 const declareEvents = () =>{
-    let score = document.querySelector("#id_score")
-    score.innerHTML = `${(localStorage["correntScore"]/10)*100}%`
-    let name = document.querySelector("#id_input")
+    let itemscore = document.querySelector("#id_score")
+    itemscore.innerHTML = `${(localStorage["correntScore"]/10)*100}%`
+    const name = document.querySelector("#id_input")
     let saveBtn = document.querySelector("#id_form");
-    // console.log(name
     saveBtn.addEventListener("submit" , (e) =>{
         e.preventDefault();
-        let newScore = new Scores(name);
-        highScores.push(newScore);
+        let correntScore = localStorage.getItem("correntScore")
+        let newScore = new Scores("" , name.value , correntScore);
+        highScores.unshift(newScore);
+        // highScores.pop()
         localStorage.setItem("highScores" , JSON.stringify(highScores))
-        console.log(highScores)
-        highScores.splice(10)
         setTimeout(function () {
             window.open( "Trivia.html" , "_self")
         }, 2000);
     })
 }
+
+
 init()

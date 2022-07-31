@@ -29,17 +29,18 @@ async function getApi() {
     /** make the api request to get our data */
 const createTrivia = ()=>{
     countQuestions++;
-    document.querySelector("#id_score").innerHTML= `${countQuestions +1} of ${avilablequestions}`;
     document.querySelector("#progressBarFull").style.width = `${(countQuestions/10)*100}%`;
     document.querySelector("#id_main").innerHTML="";
     let rnd = Math.floor(Math.random()*trivia_data.length)
     
     if(countQuestions < avilablequestions ){
-       let el = new TriviaClass("#id_main", trivia_data, rnd);
+        document.querySelector("#id_score").innerHTML= `${countQuestions +1} of ${avilablequestions}`;
+        let el = new TriviaClass("#id_main", trivia_data, rnd);
         el.render()
         trivia_data.splice(rnd,1)
     }
     else{
+        countQuestions=10;
         setTimeout(function () {
             window.open( "endGame.html" , "_self")
         }, 2000);

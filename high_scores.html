@@ -13,15 +13,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script defer src="js/endGame.js"></script>
+    <script defer src="js/highScore.js"></script>
     <script src="js/scoreClass.js"></script>
     <title>Document</title>
 </head>
 <body>
     <main id="id_main">
-        <div class="trivia p-5 shadow rounded w-75">
-            <h1 class="display-5 mb-4 text-white border-bottom border-primary p-1"">highest Scores</h1>
-            
+        <div class="trivia p-5 shadow w-75 text-center bg-dark">
+            <div class="btn_box">
+                <a class="btn btn-info rounded-sm btn-lg mt-2 p-2 col-md-6 col-12" type="button" href="index.html">Home</a>
+            </div>
+            <h1 class="display-4 mb-4 text-white p-3">Highest Scores</h1>
+            <div class="row border rounded-pill bg-secondary mb-2 py-3">
+                <h2 class="col-6">Name</h2>
+                <h2 class="col-6">Score</h2>
+            </div>
+            <div id="id_item" class="score w-100">
+                <!-- <div class="row border border-dark rounded text-primary border-primary mb-1 p-1">
+                    <h2 class="col-6">dgdfg</h2>
+                    <h2 class="col-6">dgdfg</h2>
+                </div> -->
+            </div>
         </div>
     </main>
 </body>
