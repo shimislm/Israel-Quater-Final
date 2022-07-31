@@ -1,9 +1,10 @@
 main{
     border-radius:0 ;
+    padding-top: 100px;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
     flex-direction: column;
     overflow: hidden;
