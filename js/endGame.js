@@ -22,7 +22,7 @@ const declareEvents = () =>{
         localStorage.setItem("highScores" , JSON.stringify(highScores))
         setTimeout(function () {
             window.open( "Trivia.html" , "_self")
-        }, 2000);
+        }, 1000);
     })
 }
 
