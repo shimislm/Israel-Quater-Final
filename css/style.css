@@ -371,13 +371,13 @@ footer .profile img{
     display: block;
     position: absolute;
     top: 20px;
-    right: -100%;
+    right: -120%;
     z-index: 9999999 !important;
     background-image: url(https://i.ibb.co/Y30fw4M/Strip-Image.jpg);
     background-position: center;
     background-size: cover;
     min-height: 100vh;
-    transition: 800ms;
+    transition: 1500ms;
     margin: 0;
   }
 
