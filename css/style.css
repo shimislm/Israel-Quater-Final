@@ -408,6 +408,7 @@ footer .profile img{
   }
 
   header nav.active {
+    transform: rotateY(360deg);
     right: 0;
   }
   .typing{
