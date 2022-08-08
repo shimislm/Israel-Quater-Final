@@ -1,5 +1,4 @@
 let scoresArr = JSON.parse(localStorage["highScores"])
-scoresArr = _.sortBy(scoresArr , "score");
 scoresArr.splice(10)
 
 
