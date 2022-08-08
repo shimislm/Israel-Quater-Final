@@ -8,7 +8,7 @@ function init(){
 }
 
 const updateUi = () =>{
-    scoresArr = _.reverse(_.sortBy(scoresArr , "score"));
+    
     console.log(scoresArr)
 scoresArr.forEach(item => {
     let newScore = new Scores("#id_item" , item.name , item.score);

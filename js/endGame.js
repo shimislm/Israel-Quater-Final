@@ -17,7 +17,8 @@ const declareEvents = () =>{
         e.preventDefault();
         let correntScore = localStorage.getItem("correntScore")
         let newScore = new Scores("" , name.value , correntScore);
-        highScores.unshift(newScore);
+        highScores.push(newScore);
+        highScores = _.reverse(_.sortBy(highScores , "score"));
         // highScores.pop()
         localStorage.setItem("highScores" , JSON.stringify(highScores))
         setTimeout(function () {
