@@ -39,7 +39,13 @@ class TriviaClass{
                         }, 2000);
                     }
                     else{
-                        e.style.background = "red"
+                        btns_ar.forEach((e,i)=>{
+                            if(ans_ar[i].check== "true"){
+                                e.style.background = "green"}
+                            else
+                                e.style.background = "red"
+                        })
+                        // e.style.background = "red"
                         setTimeout(function () {
                             createTrivia()
                         }, 2000);
