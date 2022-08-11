@@ -11,7 +11,7 @@ async function getApi() {
     let url = "https://api.jsonbin.io/v3/b/62e390432c868775a53e51e0"
     axios.get(url,{
                 headers : {
-            "X-MASTER-KEY" : "$2b$10$fHTfBGKQqkHn4qzEujGIf.PDOAQJRb066Olppv6JmdyzLr3mwSpr2"
+            "X-MASTER-KEY" : "$2b$10$MAFWizuCitNDoPc3uwQ.GOZRl.15giDKSNiSBbF1/mxKAKZIy0k7q"
         }
     })
     .then(function (resp) {
