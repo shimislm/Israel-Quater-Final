@@ -60,12 +60,8 @@ main h4{
     transition: 1000ms;
     
   }
-  main .row img{
-    filter: saturate(0.25);
-  }
   main .row img:hover{
     transform: scale(1.05);
-    filter: saturate(1);
   }
   #jerusalem{
     display: none;
