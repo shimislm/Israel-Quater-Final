@@ -22,11 +22,8 @@ main .bannerLeft{
         width: 100%;
     }
     .bannerLeft {
-        display: block;
-        top: 0;
-        min-width: 100%;
-        min-height: 100vh;
-        left: 6px;
+        display: none;
+
     }
     .bannerLeft iframe{
         min-height: 400px;

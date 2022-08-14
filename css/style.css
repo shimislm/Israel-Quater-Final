@@ -105,7 +105,7 @@ header nav li:hover {
 header nav a {
   color: rgb(255, 255, 255);
   font-weight: bold;
-  padding: 0 3px;
+  padding: 0 8px;
   margin: 6px 0;
   text-decoration: none !important;
   display: inline-block;
@@ -158,12 +158,12 @@ header .fa {
   font-size: 0.8em;
 }
 
-header .fa-flag {
+header .fa-bars {
   font-size: 1.5em;
   padding: 6px;
   cursor: pointer;
   color: rgb(255, 255, 255);
-  border: white 3px solid;
+  /* border: white 3px solid; */
   border-radius: 50%;
 }
 
@@ -174,7 +174,7 @@ header .fa-times {
 .typing{
   width: 100%;
   height: 100%;
-  border-radius: 30%;
+  border-radius: 16px;
   background: rgba(255, 255, 255, 0.434);
   min-height: 200px;
   font-family: Lobster;
@@ -220,14 +220,14 @@ main .slider a:hover{
 main .slider h4{
   padding: 16px 8px;
   background: linear-gradient(155deg, rgba(2, 0, 36, 0.5) 0%, rgba(95, 95, 179, 0.5) 16%, rgba(0, 213, 255, 00) 96%);
-  border-radius: 24px 0;
+  border-radius: 16px 0;
   font-family: Lobster; 
   font-size: 0.7em;
 }
 main #slider {
   width: 70%;
   height: 450px;
-  margin: 10% auto;
+  margin: 2.5% auto;
   font-family: 'Roboto', sans-serif;
   perspective: 1300px;
   transform-style: preserve-3d;
@@ -315,7 +315,7 @@ input[type=radio]:checked {
   background-position: center;
   background-size: cover;
   filter: saturate(0.25);
-  border-radius: 40%;
+  border-radius: 16px;
   overflow: hidden;
   max-width: 75%;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 1.2);
@@ -412,7 +412,7 @@ footer .profile img{
     right: 0;
   }
   .typing{
-    border-radius: 10%;
+    border-radius: 16px;
     padding: 12px;
     height: 300px;
   }
@@ -427,7 +427,7 @@ footer .profile img{
     border-radius: 0;
     max-width: 100%;
     height: 100%;
-    border-radius: 30%;
+    border-radius: 16px;
   }
   main .row .strip{
     min-height: 160px;
