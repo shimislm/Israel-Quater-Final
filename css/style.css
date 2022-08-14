@@ -227,7 +227,7 @@ main .slider h4{
 main #slider {
   width: 70%;
   height: 450px;
-  margin: 2.5% auto;
+  margin: 2% auto;
   font-family: 'Roboto', sans-serif;
   perspective: 1300px;
   transform-style: preserve-3d;
@@ -309,7 +309,7 @@ input[type=radio]:checked {
   transform: translate3d(-80%, 0, -350px) scale(0.7);
 }
 .video{
-  margin-top: 5%;
+  margin-top: 2.5%;
   max-height: 400px;
   background-image: url(https://i.ibb.co/Y30fw4M/Strip-Image.jpg);
   background-position: center;
